@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "alwaysStrict": true,
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "lib": ["es2019"],
+    "module": "commonjs",
+    "newLine": "LF",
+    "outDir": "dist",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2019"
+  },
+  "include": [
+    "./src/**/*.ts"
+  ]
+}
