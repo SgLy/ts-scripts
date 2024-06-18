@@ -3,7 +3,6 @@ module.exports = {
   root: true,
   env: {
     es6: true,
-    browser: true,
   },
   plugins: ['import'],
   extends: ['plugin:import/errors', 'plugin:import/warnings', 'eslint:recommended'],
@@ -18,10 +17,10 @@ module.exports = {
     'import/no-cycle': 'error',
     'import/no-unused-modules': 'error',
     'import/no-deprecated': 'error',
+    'import/no-duplicates': 'error',
     'no-duplicate-imports': 'off',
     'prettier/prettier': 'error',
   },
-  ignorePatterns: ['src/equipment-tool/CalcBiS/wasm_lib/pkg', 'src/equipment-tool/views/param_plot_rs/pkg'],
   overrides: [
     {
       files: ['*.ts', '*.tsx'],
@@ -36,7 +35,6 @@ module.exports = {
       plugins: ['@typescript-eslint', 'import'],
       rules: {
         '@typescript-eslint/explicit-module-boundary-types': 'off',
-        '@typescript-eslint/no-duplicate-imports': 'error',
         '@typescript-eslint/no-explicit-any': 'off',
         '@typescript-eslint/no-non-null-assertion': 'off',
         '@typescript-eslint/ban-ts-comment': 'off',
