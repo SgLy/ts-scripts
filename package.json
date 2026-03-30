@@ -6,19 +6,20 @@
   "scripts": {
     "start": "tsx src/index.ts"
   },
+  "type": "module",
   "keywords": [],
   "author": "SgLy",
   "license": "ISC",
   "dependencies": {
     "tsx": "^4.21.0",
-    "typescript": "^5.9.3"
+    "typescript": "^6.0.2"
   },
   "engines": {
     "node": ">=20",
     "pnpm": ">=9"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.4.6",
-    "@types/node": "^25.3.5"
+    "@biomejs/biome": "^2.4.10",
+    "@types/node": "^25.5.0"
   }
 }
