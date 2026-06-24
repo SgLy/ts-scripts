@@ -11,15 +11,16 @@
   "author": "SgLy",
   "license": "ISC",
   "dependencies": {
-    "tsx": "^4.21.0",
-    "typescript": "^6.0.2"
+    "tsx": "^4.22.4",
+    "typescript": "7.0.1-rc"
   },
   "engines": {
-    "node": ">=20",
-    "pnpm": ">=9"
+    "node": ">=24",
+    "pnpm": ">=11"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.4.10",
-    "@types/node": "^25.5.0"
+    "@biomejs/biome": "^2.5.1",
+    "@tsconfig/node-lts": "^24.0.0",
+    "@types/node": "^26.0.0"
   }
 }

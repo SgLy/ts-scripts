@@ -1,4 +1,5 @@
 {
+  "extends": "@tsconfig/node-lts/tsconfig.json",
   "compilerOptions": {
     "declaration": true,
     "declarationMap": true,
@@ -7,6 +8,7 @@
     "lib": ["esnext"],
     "module": "nodenext",
     "moduleDetection": "force",
+    "moduleResolution": "nodenext",
     "noFallthroughCasesInSwitch": true,
     "noImplicitOverride": true,
     "noImplicitReturns": true,
@@ -17,9 +19,7 @@
     "noUnusedParameters": true,
     "outDir": "./dist",
     "rootDir": "./src",
-    "skipLibCheck": true,
     "sourceMap": true,
-    "strict": true,
     "target": "esnext",
     "types": ["node"],
     "verbatimModuleSyntax": true
